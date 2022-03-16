@@ -17,56 +17,66 @@
     <header>
         <nav id="navbar">
             <ul>
-                <li id="nav-link"><a href="#welcome-section">About</a></li>
-                <li id="nav-link"><a href="#Projects">Projects</a></li>
-                <li id="nav-link"><a href="#Contact">Contact</a></li>
+                <li id="nav-link"><a href="#intro">About</a></li>
+                <li id="nav-link"><a href="#projects">Projects</a></li>
+                <li id="nav-link"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!--Intro-->
-    <section class="intro">
+    <section id="intro" class="intro">
         <h1>
             Hi, I'm Kevin,
         </h1>
         <p class="intro-desc">
             and I'm a Web Developer.
         </p>
+
+        <!--Intro Photo-->
+        <div class="img-container">
+            <img class="hero" src="./Assets/images/profile.jpg" alt="Profile Photo">
+        </div>
+
     </section>
 
-    <!--Intro Photo-->
-    <div class="img-container">
-        <img class="hero" src="./Assets/images/profile.jpg" alt="Profile Photo">
-    </div>
-
     <!--PROJECTS-->
-    <section class="projects">
-        <div class="project-card">
+    <section id="projects">
+        <div class="project-main">
             <a href="https://codepen.io/doolittle28/pen/wvqgvJr" target="_blank">
-                <img class="project-image" src="./Assets/images/surveypage.jpg" alt="Survey_Project" width="100%"
+                <img class="project-image-main" src="./Assets/images/surveypage.jpg" alt="Survey Project" width="100%"
                     height="100%">
                 <p class="project-title">Satisfaction Survey</p>
             </a>
         </div>
+    </section>
 
+    <section class="projects">
         <div class="project-card">
             <a href="https://codepen.io/doolittle28/pen/GRvVVjg" target="_blank">
-                <img class="project-image" src="./Assets/images/technicalpage.png" alt="Technical_Project" width="100%"
+                <img class="project-image" src="./Assets/images/technicalpage.png" alt="Technical Project" width="100%"
                     height="100%">
                 <p class="project-title">HTML Technical Document</p>
             </a>
         </div>
 
         <div class="project-card"><a href="https://codepen.io/doolittle28/pen/xxLrqab" target="_blank">
-                <img class="project-image" src="./Assets/images/productpage.png" alt="Product_Project" width="100%"
+                <img class="project-image" src="./Assets/images/productpage.png" alt="Product Project" width="100%"
                     height="100%">
                 <p class="project-title">Record Product Page</p>
+            </a>
+        </div>
+
+        <div class="project-card">
+            <img class="project-image" src="./Assets/images/placeholder.jpeg" alt="Placeholder" width="100%"
+                height="100%">
+            <p class="project-title">Project Placeholder</p>
             </a>
         </div>
     </section>
 
     <!--CONTACT-->
-    <footer id="Contact" class="contact-footer">
+    <footer id="contact" class="contact-footer">
         <div class="footer">
             <h2>
                 Let's Connect!
