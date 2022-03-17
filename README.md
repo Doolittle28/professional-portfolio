@@ -16,10 +16,10 @@
 
 ## Usage 
 
-![Screenshot of Portfolio](Assets/images/portfolioscreenshot.png) 
-  
-  
-#Credits 
+![Screenshot of Portfolio](Assets/images/portfolioscreenshot.png)  
+-Screenshot of deployed portfolio  
+
+## Credits 
 -https://www.w3schools.com/css/css3_flexbox.asp  
 -https://colorhunt.co/palette/062c3005595be2d784f5f5f5  
 -https://www.w3schools.com/css/css_comments.asp  
