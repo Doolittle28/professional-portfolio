@@ -16,7 +16,7 @@
 
 ## Usage 
 
-![Screenshot of Portfolio](.assets/images/portfolioscreenshot.png) 
+![Screenshot of Portfolio](Assets/images/portfolioscreenshot.png) 
 
 #Credits 
 -https://www.w3schools.com/css/css3_flexbox.asp  
