@@ -4,7 +4,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* smooth scroll when clicking on sections from nav */ 
   }
 
 body {
@@ -162,11 +162,11 @@ nav a:hover {
     text-decoration: underline; /* Adds underline to project title when hovered */ 
 }
 
-.project-card:hover {
+.project-card:hover { /* Box shadow around project cards when hovered */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.project-image-main:hover {
+.project-image-main:hover { /* Box shadow around main project when hovered */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
