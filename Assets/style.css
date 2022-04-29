@@ -4,8 +4,9 @@
 }
 
 html {
-    scroll-behavior: smooth; /* smooth scroll when clicking on sections from nav */ 
-  }
+    scroll-behavior: smooth;
+    /* smooth scroll when clicking on sections from nav */
+}
 
 body {
     font-size: 16px;
@@ -40,20 +41,21 @@ nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 200px;
-  }
+}
 
-  a {
-      color: white; 
-      text-decoration: none;
-  }
+a {
+    color: white;
+    text-decoration: none;
+}
 
-  /* INTRO SECTION */
-h1, .intro-desc {
+/* INTRO SECTION */
+h1,
+.intro-desc {
     display: flex;
-    padding: 20px; 
+    padding: 20px;
     margin: 12px 0 12px 0;
     justify-content: center;
-    font-size: 24px;    
+    font-size: 24px;
 }
 
 .intro {
@@ -75,14 +77,14 @@ h1, .intro-desc {
     height: auto;
 }
 
-/* PROFILE IMAGE */ 
+/* PROFILE IMAGE */
 .img-container {
     margin: 48px 0 48px 0;
     display: flex;
     justify-content: center;
     overflow: hidden;
     padding-top: 36px;
-  }
+}
 
 .hero {
     width: 350px;
@@ -95,8 +97,8 @@ h1, .intro-desc {
 
 /* PROJECTS SECTION */
 #projects {
-display: flex;
-margin-top: 6em;
+    display: flex;
+    margin-top: 6em;
 }
 
 .project-main {
@@ -120,7 +122,7 @@ margin-top: 6em;
     justify-content: space-evenly;
     margin: 25px;
     border-radius: 25px;
-    height: 100vh; 
+    height: 100vh;
     padding-bottom: 10%;
 }
 
@@ -149,34 +151,40 @@ margin-top: 6em;
     color: white;
 }
 
-.footer > h2 {
+.footer>h2 {
     margin-bottom: 10px;
 }
 
-/* HOVERS */ 
+/* HOVERS */
 nav a:hover {
-    color: #E2D784; /* Changes color of anchors in nav when hovered */ 
+    color: #E2D784;
+    /* Changes color of anchors in nav when hovered */
 }
 
 .project-title:hover {
-    text-decoration: underline; /* Adds underline to project title when hovered */ 
+    text-decoration: underline;
+    /* Adds underline to project title when hovered */
 }
 
-.project-card:hover { /* Box shadow around project cards when hovered */
+.project-card:hover {
+    /* Box shadow around project cards when hovered */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.project-image-main:hover { /* Box shadow around main project when hovered */
+.project-image-main:hover {
+    /* Box shadow around main project when hovered */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-footer a:hover { 
-    text-decoration: underline; /* Adds underline to anchors in footer when hovered */
+footer a:hover {
+    text-decoration: underline;
+    /* Adds underline to anchors in footer when hovered */
 }
 
-/* RESPONSIVE SCREEN */ 
+/* RESPONSIVE SCREEN */
 @media screen and (max-width: 768px) {
     .project-card {
-      flex-direction: column; /* Displayed project cards in a column once screen gets smaller than 768px */ 
+        flex-direction: column;
+        /* Displayed project cards in a column once screen gets smaller than 768px */
     }
 }
